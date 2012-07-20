@@ -5,7 +5,7 @@ gem 'journey',   github: 'rails/journey'
 gem 'arel',      github: 'rails/arel'
 gem 'active_record_deprecated_finders', github: 'rails/active_record_deprecated_finders'
 
-gem 'sqlite3'
+gem 'mysql2'
 
 # Gems used only for assets and not required
 # in production environments by default.

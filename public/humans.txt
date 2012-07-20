@@ -1,6 +1,10 @@
 # See more about this file at: http://humanstxt.org/
 # For format suggestions, see: http://humanstxt.org/Standard.html
+
 /* TEAM */
+  Software Design Engineer: Kevin J. Dickerson
+  Site: http://about.me/kevindickerson
+  Twitter: kevindickerson
 
 /* APP */
   Name: Stemcell
