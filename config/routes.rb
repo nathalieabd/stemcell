@@ -1,8 +1,12 @@
 Stemcell::Application.routes.draw do
   
-  devise_for :users
+  get "users/dashboard"
 
+  devise_for :users #, :defaults => { :format => 'json' }
+
+  root :to => 'users#dashboard', :constraints => lambda {|r| r.env["warden"].authenticate? }
   root :to => 'home#welcome'
+  get "/" => 'users#dashboard', :as => "user_root"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
