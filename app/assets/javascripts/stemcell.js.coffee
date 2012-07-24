@@ -3,9 +3,9 @@ window.Stemcell =
   Collections: {}
   Views: {}
   Routers: {}
-
   init: ->
-  	alert 'Hello from Backbone!'
+    new Stemcell.Routers.Pages()
+    Backbone.history.start()
 
 $(document).ready ->
   Stemcell.init()
