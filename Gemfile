@@ -7,6 +7,8 @@ gem 'rails', '3.2.6'
 
 gem 'pg'
 
+gem 'powder', group: :development
+
 gem 'backbone-on-rails'
 gem 'devise'
 
