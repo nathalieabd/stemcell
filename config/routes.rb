@@ -1,4 +1,10 @@
 Stemcell::Application.routes.draw do
+  devise_for :users
+
+  scope 'api' do
+    get 'current-user', :controller => 'api', :action => 'current_user_details'
+  end
+
   root :to => 'welcome#home'
 
   # The priority is based upon order of creation:
