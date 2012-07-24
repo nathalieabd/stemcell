@@ -143,6 +143,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
+  less
   pg
   powder
   rails (= 3.2.6)
