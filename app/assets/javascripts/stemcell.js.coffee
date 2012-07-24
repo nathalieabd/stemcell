@@ -3,7 +3,9 @@ window.Stemcell =
   Collections: {}
   Views: {}
   Routers: {}
-  init: -> alert 'Hello from Backbone!'
+
+  init: ->
+  	alert 'Hello from Backbone!'
 
 $(document).ready ->
   Stemcell.init()
