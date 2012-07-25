@@ -2,7 +2,7 @@ Stemcell::Application.routes.draw do
   devise_for :users
 
   scope 'api' do
-    get 'current-user', :controller => 'api', :action => 'current_user_details'
+    get 'current-user', :controller => 'api/current_user', :action => 'show', :as => 'current_user_info'
   end
 
   root :to => 'welcome#home'

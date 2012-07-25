@@ -7,6 +7,6 @@ class Api::CurrentUserController < ApplicationController
 
   protected
   def require_sign_on
-    render(:text => '<h1>Forbidden</h1>', :status => 403) unless user_signed_in? == true
+    render(:text => I18n.translate(:forbidden_resource), :status => 403) unless user_signed_in? == true
   end
 end

@@ -1,5 +1,7 @@
 <div id="navbar"></div>
 <div class="container">
 <h1>Stem Cell</h1>
+<h2>Rackspace Accounts</h2>
+<%= @user_name %>
 </div>
 

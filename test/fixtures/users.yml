@@ -1,16 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
+alfred:
   name: 'Alfred Hitchcock'
   encrypted_password: '$2a$10$m0inWLo.9wPU1ysyFk6y.uE1PxIjU6P8YLhRqjsNATjjEewQVgC4C'
   email: 'al@fake.com'
 
-two:
+james:
   name: 'James T. Kirk'
   encrypted_password: '$2a$10$m0inWLo.9wPU1ysyFk6y.uE1PxIjU6P8YLhRqjsNATjjEewQVgC4C'
   email: 'jim@fake.com'
 
-three:
+will:
   name: 'William Riker'
   encrypted_password: '$2a$10$m0inWLo.9wPU1ysyFk6y.uE1PxIjU6P8YLhRqjsNATjjEewQVgC4C'
   email: 'will@fake.com'
