@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  rackspace_region_id: 1
+  username: 'alfredrackspace'
+  api_access_key: 'alfred-one-one-alpha'
+
+two:
+  user_id: 2
+  rackspace_region_id: 1
+  username: 'jimmyteekirk'
+  api_access_key: 'jimmy-two-omega-prime'
+
+three:
+  user_id: 3
+  rackspace_region_id: 2
+  username: 'willywill'
+  api_access_key: 'willy-doo-wop'

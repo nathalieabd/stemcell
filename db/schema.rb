@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120724040351) do
+ActiveRecord::Schema.define(:version => 20120724223240) do
+
+  create_table "rackspace_account_metadata", :force => true do |t|
+    t.string   "username"
+    t.string   "api_access_key"
+    t.integer  "user_id"
+    t.integer  "rackspace_region_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "rackspace_regions", :force => true do |t|
+    t.string   "name"
+    t.string   "host"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

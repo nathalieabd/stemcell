@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 'us'
+  host: 'https://identity.api.rackspacecloud.com/'
+
+two:
+  name: 'uk'
+  host: 'https://lon.identity.api.rackspacecloud.com/'
