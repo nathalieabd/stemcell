@@ -9,6 +9,7 @@ gem 'pg'
 
 gem 'devise'
 gem 'cancan'
+gem 'redcarpet'
 
 gem 'debugger', group: :development
 gem 'pow', group: :development
@@ -39,5 +40,3 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-# gem 'debugger'
