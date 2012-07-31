@@ -1,4 +1,1 @@
-stemcell
-========
-
-Stem cell.
+# Nothing here
